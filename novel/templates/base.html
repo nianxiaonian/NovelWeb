@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block titleBlock %}
+    {% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+    <script type="text/javascript" src="../static/js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="../static/js/main.js"></script>
+    <script type="text/javascript" src="../static/js/jquery.form.min.js"></script>
+
+    <script type="text/javascript" src="../static/js/search.js"></script>
+
+    {% block javascriptBlock %}
+
+    {% endblock %}
+
+</head>
+<body>
+    <div class="header_con">
+        <div class="header">
+            <a href="{{ url_for('index.index') }}" class="logo fl"><img src="../static/images/logo.png" alt="logo" width="140" height="33"></a>
+            <ul class="menu fl">
+                {% block categoryBlock %}
+
+                {% endblock %}
+<li>
+                <div class="search_bar clearfix">
+
+{#        <div class="search_wrap fl">#}
+            <form method="post" action="javascript:;" class="search_con fr" style="margin-top: 13px">
+                <input type="text" class="input_text fl" name="q" placeholder="搜索图书">
+                <input type="submit" class="input_btn fr" name="" value="搜索">
+            </form>
+{#            <ul class="search_suggest fl">#}
+{#                <li><a href="#">狐狸</a></li>#}
+{#                <li><a href="#">兔子</a></li>#}
+{#                <li><a href="#">小白</a></li>#}
+{#                <li><a href="#">无名之辈</a></li>#}
+{#            </ul>#}
+{#        </div>#}
+        </div>
+            </li>
+            </ul>
+
+
+
+    </div>
+
+    <div class="conter_con">
+        {% block contentBlock %}
+
+        {% endblock %}
+
+            <div class="rank_con fr">
+
+            <div class="rank_title">
+                <h3>点击排行</h3>
+            </div>
+            <ul class="rank_list">
+
+                {# 遍历小说点击排行数据 #}
+                {% for novel in data.novel_list %}
+                    <li><span class="{{ loop.index | index_filter }}">{{ loop.index }}</span><a href="/{{ novel._id }}">{{ novel.name }}</a></li>
+
+                {% endfor %}
+
+            </ul>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="footer_links">
+            <a href="">关于我们</a>
+            <span>|</span>
+            <a href="">联系我们</a>
+            <span>|</span>
+            <a href="">招聘人才</a>
+            <span>|</span>
+            <a href="">友情链接</a>
+        </div>
+        <p class="copyright">
+            本网站提供的资源均系收集于各大资源网站，本网站只提供web页面服务，并不提供资源存储，也不参与编写、上传<br />
+若本站收录的资源无意侵犯了贵司版权，请点击联系我们，进行留言，我们会及时处理和回复，谢谢！<br />
+Copyright © 2010-2018	奥利奥爱读书 www.aoliaoaidushu.com
+        </p>
+    </div>
+</div>
+</body>
+</html>

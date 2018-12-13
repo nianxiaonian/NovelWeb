@@ -1,9 +1,8 @@
 import logging
 from logging.handlers import RotatingFileHandler
+from flask_pymongo import PyMongo
 
-import redis
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
 
 from flask_wtf.csrf import CSRFProtect
 from flask_session import Session
@@ -11,8 +10,9 @@ from flask_session import Session
 from config import config
 
 # 数据库
-db = SQLAlchemy()
-redis_store = None
+from novel.utils.commons import index_filter
+
+mongo = PyMongo()
 
 
 def create_app(config_name):
@@ -21,12 +21,16 @@ def create_app(config_name):
     app = Flask(__name__)
 
     app.config.from_object(config[config_name])
-    db.init_app(app)
-    global redis_store
-    redis_store = redis.StrictRedis(host=config[config_name].REDIS_HOST, port=config[config_name].REDIS_PORT)
+    mongo.init_app(app)
+
     CSRFProtect(app)
     Session(app)
+    # 注册蓝图
+    from novel.modules.index import index_blu
+    app.register_blueprint(index_blu)
 
+    # 导入自定义的过滤器
+    app.add_template_filter(index_filter, 'index_filter')
     return app
 
 

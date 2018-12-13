@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block titleBlock %}
+首页-奥利奥爱读书
+{% endblock %}
+
+{% block javascriptBlock %}
+    <script type="text/javascript" src="../static/js/index.js"></script>
+
+{% endblock %}
+
+{% block categoryBlock %}
+    {% for category in data.category_list %}
+        <li class="{% if loop.index0 == 0 %}active{% endif %}" data-cid="{{ category.category_id }}"><a href="javascript:;">{{ category.category_name }}</a></li>
+
+    {% endfor %}
+{% endblock %}
+
+
+{% block contentBlock %}
+    <ul class="list_con fl"></ul>
+    
+
+{% endblock %}
+
