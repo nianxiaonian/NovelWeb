@@ -1944,3 +1944,218 @@ INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 10:44:27] "GET /index HTTP/1.1" 
 INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 10:44:27] "GET /novel_list?cid=1&page=1 HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 10:45:04] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 10:45:04] "GET /static/js/detail.js HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 141-310-418
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 14:54:05] "GET /index HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 14:54:06] "GET /novel_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 14:54:13] "GET /novel_list?page=1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 14:54:42] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 14:54:42] "GET /static/js/detail.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 14:55:18] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 14:55:18] "GET /static/js/detail.js HTTP/1.1" 404 -
+INFO _internal.py:88  * Detected change in '/Users/nianzhidan/PycharmProjects/spider_project/NovelWeb/Novel/novel/modules/index/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 141-310-418
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 14:57:55] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 14:57:55] "GET /static/js/detail.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:04:00] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:04:00] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:04:05] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:04:07] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:04:43] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:04:43] "GET /5c0d2b3c54c9af1b24f891b3?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:04:43] "GET /5c0d2b3c54c9af1b24f891b3?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:04:43] "GET /5c0d2b3c54c9af1b24f891b3?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:04:43] "GET /5c0d2b3c54c9af1b24f891b3?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:04:44] "GET /5c0d2b3c54c9af1b24f891b3?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:04:44] "GET /5c0d2b3c54c9af1b24f891b3?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:05:00] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:05:00] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:05:02] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:05:02] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:05:03] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:05:03] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:05:15] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:05:15] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:05:16] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:05:16] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:05:17] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:05:17] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:10:26] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:10:26] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:11:21] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:11:21] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:11:22] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:11:22] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:11:22] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:11:22] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:11:44] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:11:44] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:12:09] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:12:09] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:12:10] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:12:10] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:12:35] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:12:35] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:13:39] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:13:39] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:13:40] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:13:40] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:13:41] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:13:41] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:13:56] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:13:56] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:15:55] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:15:55] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:16:40] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:16:40] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:17:10] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:17:10] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:17:18] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:17:18] "GET /5c0d2b3c54c9af1b24f891b3?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:17:18] "GET /5c0d2b3c54c9af1b24f891b3?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:17:18] "GET /5c0d2b3c54c9af1b24f891b3?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:17:18] "GET /5c0d2b3c54c9af1b24f891b3?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:17:18] "GET /5c0d2b3c54c9af1b24f891b3?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:17:18] "GET /5c0d2b3c54c9af1b24f891b3?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:17:47] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:17:48] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:17:50] "GET /http://www.136book.com/zhewenchaogangliao/fwkzgba/ HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:20:30] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:20:31] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:37:21] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:37:21] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:37:21] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:37:21] "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:37:21] "GET /static/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:37:21] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:37:21] "GET /static/js/search.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:37:21] "GET /static/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:37:21] "GET /static/images/icons.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:37:21] "GET /static/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:37:21] "GET /static/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:37:21] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:38:48] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:38:48] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:38:48] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:38:48] "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:38:48] "GET /static/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:38:48] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:38:48] "GET /static/js/search.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:38:48] "GET /static/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:38:48] "GET /static/images/icons.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:38:48] "GET /static/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:38:48] "GET /static/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:38:48] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:39:55] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:39:55] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:39:55] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:39:55] "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:39:55] "GET /static/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:39:55] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:39:55] "GET /static/js/search.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:39:55] "GET /static/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:39:55] "GET /static/images/icons.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:39:55] "GET /static/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:39:55] "GET /static/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:39:55] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:05] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:05] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:12] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:12] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:12] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:12] "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:12] "GET /static/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:12] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:12] "GET /static/js/search.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:12] "GET /static/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:12] "GET /static/images/icons.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:12] "GET /static/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:12] "GET /static/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:12] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:13] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:14] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:37] "GET /5c0d2b3c54c9af1b24f891b3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:37] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:37] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:37] "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:37] "GET /static/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:37] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:37] "GET /static/js/search.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:37] "GET /static/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:37] "GET /static/images/icons.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:37] "GET /static/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:37] "GET /static/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 15:40:37] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/Users/nianzhidan/PycharmProjects/spider_project/NovelWeb/Novel/novel/modules/index/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 141-310-418
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:07:41] "GET /index HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:07:42] "GET /static/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:07:42] "GET /novel_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:07:42] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:07:42] "GET /static/images/test.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:07:46] "GET /novel_list?cid=1&page=2 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:07:49] "GET /5c1212ea54c9af19beb3329a HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:07:49] "GET /5c1212ea54c9af19beb3329a?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:07:49] "GET /5c1212ea54c9af19beb3329a?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:07:49] "GET /5c1212ea54c9af19beb3329a?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:07:49] "GET /5c1212ea54c9af19beb3329a?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:07:49] "GET /5c1212ea54c9af19beb3329a?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:07:49] "GET /5c1212ea54c9af19beb3329a?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/Users/nianzhidan/PycharmProjects/spider_project/NovelWeb/Novel/novel/modules/index/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 141-310-418
+INFO _internal.py:88  * Detected change in '/Users/nianzhidan/PycharmProjects/spider_project/NovelWeb/Novel/novel/modules/index/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 141-310-418
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:11:56] "GET /index HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:11:56] "GET /novel_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:11:59] "GET /5c1212c954c9af19beb3328a HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:11:59] "GET /5c1212c954c9af19beb3328a?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:11:59] "GET /5c1212c954c9af19beb3328a?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:11:59] "GET /5c1212c954c9af19beb3328a?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:11:59] "GET /5c1212c954c9af19beb3328a?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:11:59] "GET /5c1212c954c9af19beb3328a?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:11:59] "GET /5c1212c954c9af19beb3328a?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:12:19] "GET /5c1212c954c9af19beb3328a HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:12:19] "GET /5c1212c954c9af19beb3328a?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:12:19] "GET /5c1212c954c9af19beb3328a?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:12:19] "GET /5c1212c954c9af19beb3328a?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:12:19] "GET /5c1212c954c9af19beb3328a?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:12:19] "GET /5c1212c954c9af19beb3328a?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:12:19] "GET /5c1212c954c9af19beb3328a?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:14:02] "GET /5c1212c954c9af19beb3328a HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:14:02] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:14:39] "GET /5c1212c954c9af19beb3328a HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:14:39] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:14:40] "GET /5c1212c954c9af19beb3328a HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:14:40] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:14:45] "GET /5c1212cc54c9af19beb3328b HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:20:12] "GET /index HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:20:12] "GET /novel_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:20:12] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:24:09] "GET /index HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:24:09] "GET /novel_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:24:09] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:24:55] "GET /index HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:24:55] "GET /novel_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:24:55] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:25:29] "GET /index HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:25:29] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:25:30] "GET /index HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:25:30] "GET /novel_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:25:30] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:25:50] "GET /index HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:25:50] "GET /novel_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:25:50] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:31:38] "GET /5c12178554c9af1bf1d1efa5 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [13/Dec/2018 16:34:32] "GET /5c12177a54c9af1bf1d1efa1 HTTP/1.1" 200 -

@@ -13,7 +13,7 @@ def index():
     '''首页小说列表展示'''
     # 分类展示
     try:
-        categories_id = mongo.db.book136.distinct('category_id')
+        categories_id = mongo.db.novel.distinct('category_id')
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=500, errmsg='查询分类数据失败')
@@ -22,7 +22,7 @@ def index():
     category_list = []
     for category_id in categories_id:
         try:
-            category_name = mongo.db.book136.find_one({'category_id': category_id})['category_name']
+            category_name = mongo.db.novel.find_one({'category_id': category_id})['category_name']
         except Exception as e:
             current_app.logger.error(e)
             return jsonify(errno=500, errmsg='查询数据失败')
@@ -33,7 +33,7 @@ def index():
 
     # 排行榜展示
     try:
-        novels = mongo.db.book136.find().sort('clicks', -1).limit(10)
+        novels = mongo.db.novel.find().sort('clicks', -1).limit(10)
 
     except Exception as e:
         current_app.logger.error(e)
@@ -64,7 +64,7 @@ def novel_list():
         return jsonify(errno=401, errmsg="参数错误")
 
     try:
-        novels = mongo.db.book136.find({'category_id': cid})
+        novels = mongo.db.novel.find({'category_id': cid})
         total_count = novels.count()
         novels = novels.limit(10).skip(10*(page-1))
         total_page = total_count//10 + 1
@@ -92,7 +92,7 @@ def novel_list():
 def get_novel_detail(novel_id):
     # 排行榜展示
     try:
-        novels = mongo.db.book136.find().sort('clicks', -1).limit(10)
+        novels = mongo.db.novel.find().sort('clicks', -1).limit(10)
 
     except Exception as e:
         current_app.logger.error(e)
@@ -105,7 +105,7 @@ def get_novel_detail(novel_id):
 
     # 小说详情页展示
     try:
-        novel = mongo.db.book136.find_one({'_id':ObjectId(novel_id)})
+        novel = mongo.db.novel.find_one({'_id':ObjectId(novel_id)})
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=500, errmsg='查询小说详情失败')
@@ -114,7 +114,7 @@ def get_novel_detail(novel_id):
     # 修改小说点击量
     try:
         clicks = novel['clicks'] + 1
-        mongo.db.book136.update_one({'_id':ObjectId(novel_id)}, {'$set':{'clicks': clicks}})
+        mongo.db.novel.update_one({'_id':ObjectId(novel_id)}, {'$set':{'clicks': clicks}})
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=500, errmsg='修改点击量失败')
@@ -126,18 +126,56 @@ def get_novel_detail(novel_id):
 
     return render_template('detail.html', data=data)
 
+# @index_blu.route('/chapter_id>')
+# def get_novel_detail(novel_id):
+#     # 排行榜展示
+#     try:
+#         novels = mongo.db.novel.find().sort('clicks', -1).limit(10)
+#
+#     except Exception as e:
+#         current_app.logger.error(e)
+#         return jsonify(errno=401, errmsg='查询小说排行榜失败')
+#
+#     novel_list = []
+#     for novel in novels:
+#         novel['_id'] = str(novel['_id'])
+#         novel_list.append(novel)
+#
+#     # 小说详情页展示
+#     try:
+#         novel = mongo.db.novel.find_one({'_id':ObjectId(novel_id)})
+#     except Exception as e:
+#         current_app.logger.error(e)
+#         return jsonify(errno=500, errmsg='查询小说详情失败')
+#     if not novel:
+#         return jsonify(errno=500, errmsg='无小说详情数据')
+#     # 修改小说点击量
+#     try:
+#         clicks = novel['clicks'] + 1
+#         mongo.db.novel.update_one({'_id':ObjectId(novel_id)}, {'$set':{'clicks': clicks}})
+#     except Exception as e:
+#         current_app.logger.error(e)
+#         return jsonify(errno=500, errmsg='修改点击量失败')
+#
+#     data = {
+#         'novel_list': novel_list,
+#         'novel_detail': novel,
+#     }
+#
+#     return render_template('detailxxx.html', data=data)
+
 
 @index_blu.route('/search', methods=['GET','POST'])
 def search_novel():
     keyword = request.args.get('q')
     print(keyword)
     try:
-        novels = mongo.db.book136.find({'name':{'$regex':'^.*%s.*$' % keyword}})
+        novels = mongo.db.novel.find({'name':{'$regex':'^.*%s.*$' % keyword}})
         print(novels)
         if novels.count() == 0:
-            novels = mongo.db.book136.find({'author': {'$regex': '^.*%s.*$' % keyword, '$options':'s'}})
+            novels = mongo.db.novel.find({'author': {'$regex': '^.*%s.*$' % keyword, '$options':'s'}})
         if novels.count() == 0:
-            novels = mongo.db.book136.find({'content': {'$regex': '^.*%s.*$' % keyword, '$options':'s'}})
+            novels = mongo.db.novel.find({'content': {'$regex': '^.*%s.*$' % keyword, '$options':'s'}})
         if novels.count() == 0:
             return jsonify(errno=500, errmsg='找不到资源')
 
@@ -156,10 +194,6 @@ def search_novel():
 
     # return render_template('search.html', data=data)
     return jsonify(errno=0, data=data)
-
-
-
-
 
 
 @index_blu.route('/favicon.ico')

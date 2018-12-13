@@ -1440,6 +1440,10 @@ body{
 	color:#259e33;
 }
 
+.chapter_names{
+    color:#000;
+    list-style: none;
+}
 
 /*.novels_detail{*/
     /*display: inline-block;*/
